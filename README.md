@@ -24,7 +24,7 @@ Django Web Crawler is a lightweight Django app designed to connect to websites a
    ```python
    crawler = main.StartPoint("https://example.com", max_crawl=50, number_of_threads=10)
    ```
-   ####The StartPoint class can be initialized with three arguments:
+   The StartPoint class can be initialized with three arguments:
    * homepage: a positional argument of the website to gather its links.
    * max_crawl: maximum number of links to gather from the website; default is 50
    * number_of_threads: number of threads to perform the work simultaneously; default is 10
@@ -40,7 +40,7 @@ Django Web Crawler is a lightweight Django app designed to connect to websites a
    crawler.result
    ```
    
-##Example
+**Example**
 
 ```python
 from web_crawler.crawler import main
